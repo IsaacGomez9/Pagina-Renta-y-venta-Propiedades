@@ -1,0 +1,61 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+
+.card_apartment{
+    color:#FFFF
+}
+
+@media (max-width: 768px){
+.DisplayB{
+    display: block !important;
+}
+.cardRespon{
+    width: 100% !important;
+    height: 50% !important;
+}
+.imgRespon{
+    width: 300px!important;
+   height: 300px!important;
+   margin: 0 auto !important;
+
+}
+.UltimaSecCOn{
+    
+    align-items:center;
+}
+.DisWeAre{
+    display: block !important; 
+}
+.conTFoter{
+    margin: 0 auto !important;
+}
+.ImgsBlock img{
+    margin: 0 auto !important;
+}
+.ImgsBlock1{
+    margin: 0 auto !important;
+   
+    width:50%
+}
+.ContWereBest{
+    
+    width:100% !important;
+}
+.ContWereBestImg{
+    
+    margin: 0 auto !important;
+    
+}
+.ContactUsBtn{
+    
+    width:75% !important;
+    margin: 0 auto !important;
+}
+}

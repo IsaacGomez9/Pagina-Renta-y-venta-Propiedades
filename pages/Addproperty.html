@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Bootstrap demo</title>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+</head>
+
+<body style="height: 100vh; background-color: #ded2d2" class="d-flex justify-content-center align-items-center">
+  <div class="card w-50">
+    <div class="card-body text-center ">
+      <img class="w-25" src="../images/Logo.svg" alt="logo" />
+      <h3 class="mt-5">Añadade tu Propiedad</h3>
+      <form class="form-group p-2 " id="form">
+        <div class="d-flex justify-content-center">
+        <div> <input id="Name" class="form-control m-3" placeholder="Name" />
+          <input id="img" type="text" class="form-control m-3" placeholder="Añade una Imagen" />
+          <input id="precio" type="text" class="form-control m-3" placeholder="Precio" />
+          <input id="Ubicacion" type="text" class="form-control m-3" placeholder="Ubicacion" />
+          <input id="Tamaño" class="form-control m-3" placeholder="Tamaño" />
+          <input id="Inteligente" class="form-control m-3" placeholder="Inteligente" />
+          <input id="Piscina" class="form-control m-3" placeholder="Piscina" />
+          
+        </div>
+        <div>
+          <input id="Seguridad_Pri" class="form-control m-3" placeholder="Seguridad_Pri" />
+          <input id="Centro_Medico" class="form-control m-3" placeholder="Centro_Medico" />
+          <input id="Biblioteca" class="form-control m-3" placeholder="Biblioteca" />
+          <input id="tipo" class="form-control m-3" placeholder="tipo" />
+          <input id="Habitaciones" class="form-control m-3" placeholder="Habitaciones" />
+          <input id="baños" class="form-control m-3" placeholder="Baños" />
+          <input id="parqueadero" class="form-control m-3" placeholder="Parqueadero" />
+        </div>
+      </div>
+      <div class="d-block w-75 m-auto">
+        <input id="TipoArr" class="form-control m-3" placeholder="Tipo de negocio" />
+
+      </div>
+        <button type="submit" class="btn btn-primary" id="se_creo">Añadir</button>
+      </form>
+    </div>
+  </div>
+  <script src="../script/Addproperty.js" type="module"></script>
+</body>
+
+</html>
